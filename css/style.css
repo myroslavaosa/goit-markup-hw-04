@@ -320,6 +320,10 @@ color: #404bbf;
     border-radius: 50%;
 }
 
+.socials-link:hover {
+    background-color: #404BBF;
+}
+
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -397,6 +401,8 @@ color: #404bbf;
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
     }
 
 .footer-logo {
@@ -421,4 +427,24 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px
+}
+
+.footer .socials-link:hover {
+    background-color: #31D0AA;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.footer .list-socials {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-second-paragraph {
+    font-weight: 500;
+    color: #fff;
 }
