@@ -129,8 +129,11 @@ color: #404bbf;
 .first-section {
     background-color: #2E2F42;
     padding: 188px 0;
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
 
 .main-title {
     font-weight: 700;
@@ -180,6 +183,24 @@ color: #404bbf;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.box {
+    width: 264px;
+    height: 112px;
+    background-color: #F4F4FD;
+    padding-bottom: 8px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    position: relative;
+}
+
+.icon {
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .priorities-title {
@@ -267,7 +288,31 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #434455;
     display: flex;
-    text-align: center;
+    justify-content: center;
+}
+
+.box-social {
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.list-socials {
+    display: flex;
+    gap: 24px;
+    padding-top: 8px;
+}
+
+.icon-social {
+    fill: #F4F4FD;
+}
+
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
 }
 
 .portfolio {
